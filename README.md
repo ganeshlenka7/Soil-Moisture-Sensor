@@ -42,4 +42,4 @@ VCC & GND → Arduino 5V & GND
 
 Code
 
-The Arduino sketch handles the pulse generation, distance calculation, and LED control using simple digitalWrite, pinMode, and pulseIn functions.
+The Arduino sketch uses simple analogRead and conditional checks to monitor soil conditions and print feedback on the Serial Monitor.
